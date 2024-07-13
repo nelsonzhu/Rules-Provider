@@ -634,6 +634,7 @@ payload:
   - DOMAIN-KEYWORD,github
   - DOMAIN-KEYWORD,instagram
   - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,x
   - DOMAIN-KEYWORD,whatsapp
   - DOMAIN-KEYWORD,google
   - DOMAIN-SUFFIX,1e100.net
