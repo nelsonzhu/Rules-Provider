@@ -1,17 +1,19 @@
 payload:
-  # > ChatGPT
-  - DOMAIN-SUFFIX,ai.com
+  # > ChatGPT / OpenAI
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,openai.com
-
-  # > Chat GPT API & CDN
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,openaiapi-site.azureedge.net
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN,production-openaicom-storage.azureedge.net
-
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+
+  # > ChatGPT / OpenAI CDN & Login
+  - DOMAIN,cdn.openaimerge.com
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,workos.imgix.net
+  - DOMAIN,challenges.cloudflare.com
 
   # > New Bing
   - DOMAIN-SUFFIX,bing.com
@@ -22,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
 
   # > Gemini
-  - DOMAIN,bard.google.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,ai.google.dev
